@@ -15,7 +15,7 @@ struct PersistenceController {
     //MARK: - 2.Persistance container
     let container: NSPersistentContainer
     
-    //MARK: - 3.Initialization(laod persistance store)
+    //MARK: - 3.Initialization(load persistance store)
     init(inMemory: Bool = false) {
         container = NSPersistentContainer(name: "DevoteCoreData")
         if inMemory {
@@ -31,6 +31,8 @@ struct PersistenceController {
     
     //MARK: - 3.preview
     static var preview: PersistenceController = {
+        // IN memeory persistance store
+        // Three disk based persistance tools- XML, Binary and Sql()
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
         for _ in 0..<10 {

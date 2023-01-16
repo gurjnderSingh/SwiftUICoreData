@@ -10,6 +10,7 @@ import CoreData
 
 struct ContentView: View {
     
+    //managedObjectContext an environment where we can manipulate Core data objects entirely in RAM
     //Fetching Data
     @Environment(\.managedObjectContext) private var viewContext
 
