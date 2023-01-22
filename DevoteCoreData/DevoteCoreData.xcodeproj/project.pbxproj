@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18F63950297DA1BE00B8F4E8 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6394F297DA1BE00B8F4E8 /* HideKeyboardExtension.swift */; };
 		18F9AD07296E5049004A3F0F /* DevoteCoreDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F9AD06296E5049004A3F0F /* DevoteCoreDataApp.swift */; };
 		18F9AD09296E5049004A3F0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F9AD08296E5049004A3F0F /* ContentView.swift */; };
 		18F9AD0B296E504C004A3F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F9AD0A296E504C004A3F0F /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18F6394F297DA1BE00B8F4E8 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
 		18F9AD03296E5049004A3F0F /* DevoteCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevoteCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F9AD06296E5049004A3F0F /* DevoteCoreDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteCoreDataApp.swift; sourceTree = "<group>"; };
 		18F9AD08296E5049004A3F0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		18F9AD21296E522D004A3F0F /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				18F6394F297DA1BE00B8F4E8 /* HideKeyboardExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			files = (
 				18F9AD2B29707BDA004A3F0F /* Constants.swift in Sources */,
 				18F9AD10296E504C004A3F0F /* Persistence.swift in Sources */,
+				18F63950297DA1BE00B8F4E8 /* HideKeyboardExtension.swift in Sources */,
 				18F9AD13296E504C004A3F0F /* DevoteCoreData.xcdatamodeld in Sources */,
 				18F9AD09296E5049004A3F0F /* ContentView.swift in Sources */,
 				18F9AD07296E5049004A3F0F /* DevoteCoreDataApp.swift in Sources */,
