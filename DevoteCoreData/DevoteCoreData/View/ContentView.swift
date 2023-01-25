@@ -92,10 +92,16 @@ struct ContentView: View {
 //                    .frame(height: 500)
 //                    .background(Color.clear)
                 } //: VStack
+                if showNewTaskItem {
+                    BlankView()
+                        .onTapGesture {
+                            withAnimation {
+                                showNewTaskItem = false
+                            }
+                        }
+                    NewTaskItemView(isShowing: $showNewTaskItem)
+                }
             } //: ZStack
-//            .onAppear() {
-//                UITableView.appearance().backgroundColor = .clear
-//            }
             .navigationBarTitle("Daily Tasks", displayMode: .large)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
