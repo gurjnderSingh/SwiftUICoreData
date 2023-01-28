@@ -101,18 +101,23 @@ struct ContentView: View {
                             ListRowItemView(item: item)
                         }
                         .onDelete(perform: deleteItems)
-//                        .listRowBackground(Color.green)
                     } // List
                     .listStyle(InsetGroupedListStyle())
                     .shadow(color: Color.init(red: 0, green: 0, blue: 0, opacity: 0.7), radius: 32)
-                    .padding(.vertical, 0)
+                    .padding(.vertical,0)
                     .cornerRadius(33)
                     .scrollContentBackground(.hidden)
-//                    .frame(height: 500)
-//                    .background(Color.clear)
                 } //: VStack
+                .blur(radius: showNewTaskItem ? 8.0 : 0, opaque: false)
+                .transition(.move(edge: .bottom))
+                .animation(.easeOut(duration: 0.5), value: 1)
+                
+                //MARK: - New Task Item
                 if showNewTaskItem {
-                    BlankView()
+                    BlankView(
+                        backgroundColor: isDarKMode ? Color.black : Color.gray,
+                        backgroundOpacity: isDarKMode ? 0.3 : 0.5
+                    )
                         .onTapGesture {
                             withAnimation {
                                 showNewTaskItem = false
@@ -125,6 +130,7 @@ struct ContentView: View {
             .navigationBarHidden(true)
             .background(
                 BackgroundImageView()
+                    .blur(radius: showNewTaskItem ? 8.0 : 0, opaque: false)
             )
             .background(
                 backgroundGradient.ignoresSafeArea(.all)
