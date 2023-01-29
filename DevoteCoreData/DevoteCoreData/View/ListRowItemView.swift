@@ -21,7 +21,7 @@ struct ListRowItemView: View {
                 .padding(.vertical, 12)
                 .animation(.default)
         } //: Toggle
-//        .toggleStyle(CheckBoxStyle())
+        .toggleStyle(CheckBoxStyle())
         .onReceive(item.objectWillChange) { _ in
             if self.viewContext.hasChanges {
                 try? self.viewContext.save()

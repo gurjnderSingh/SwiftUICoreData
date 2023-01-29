@@ -10,6 +10,7 @@
 		18C47C81298444D50043C850 /* ListRowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C47C80298444D50043C850 /* ListRowItemView.swift */; };
 		18C47C83298446E60043C850 /* CheckBoxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C47C82298446E60043C850 /* CheckBoxStyle.swift */; };
 		18E9D27029804F8D00808ADA /* NewTaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E9D26F29804F8D00808ADA /* NewTaskItemView.swift */; };
+		18F0F43D2986D21900FACA23 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F0F43C2986D21900FACA23 /* SoundPlayer.swift */; };
 		18F413D52981926A000CB7B5 /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F413D42981926A000CB7B5 /* BlankView.swift */; };
 		18F6177A297EF8E9008DCBED /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F61779297EF8E9008DCBED /* BackgroundImageView.swift */; };
 		18F63950297DA1BE00B8F4E8 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6394F297DA1BE00B8F4E8 /* HideKeyboardExtension.swift */; };
@@ -29,6 +30,7 @@
 		18C47C80298444D50043C850 /* ListRowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowItemView.swift; sourceTree = "<group>"; };
 		18C47C82298446E60043C850 /* CheckBoxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxStyle.swift; sourceTree = "<group>"; };
 		18E9D26F29804F8D00808ADA /* NewTaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskItemView.swift; sourceTree = "<group>"; };
+		18F0F43C2986D21900FACA23 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		18F413D42981926A000CB7B5 /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
 		18F61779297EF8E9008DCBED /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
 		18F6394F297DA1BE00B8F4E8 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				18F9AD2A29707BDA004A3F0F /* Constants.swift */,
+				18F0F43C2986D21900FACA23 /* SoundPlayer.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				18F9AD07296E5049004A3F0F /* DevoteCoreDataApp.swift in Sources */,
 				18C47C83298446E60043C850 /* CheckBoxStyle.swift in Sources */,
 				18C47C81298444D50043C850 /* ListRowItemView.swift in Sources */,
+				18F0F43D2986D21900FACA23 /* SoundPlayer.swift in Sources */,
 				18E9D27029804F8D00808ADA /* NewTaskItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
